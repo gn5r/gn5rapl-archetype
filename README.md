@@ -20,11 +20,11 @@ mvn archetype:generate -DarchetypeGroupId=com.github.gn5r \
 
 # Properties
 
-|    name    |     discription      |                  defaultValue                  |
-| :--------: | :------------------: | :--------------------------------------------: |
-|  groupId   |   Project GroupId    |                       -                        |
-| artifactId |  Project ArtifactId  |                       -                        |
-|  version   |   Project version    |                  1.0-SNAPSHOT                  |
-| packaging  |  Project packaging   |                      war                       |
-|  package   | Project package FQCN | \${groupId}.${artifactId.replaceAll("-", ".")} |
-|  appname   |   MainClassPrefex    |                       -                        |
+|    name    |     discription      |                  defaultValue                   |
+| :--------: | :------------------: | :---------------------------------------------: |
+|  groupId   |   Project GroupId    |                        -                        |
+| artifactId |  Project ArtifactId  |                        -                        |
+|  version   |   Project version    |                  1.0-SNAPSHOT                   |
+| packaging  |  Project packaging   |                       war                       |
+|  package   | Project package FQCN | `${groupId}.${artifactId.replaceAll("-", ".")}` |
+|  appname   |   MainClassPrefex    |                        -                        |
