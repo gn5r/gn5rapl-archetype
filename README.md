@@ -1,6 +1,7 @@
 # Usage
 
 ## Clone This Repository
+
 `git clone https://github.com/gn5r/gn5rapl-archetype.git`
 
 `mvn install`
@@ -14,13 +15,16 @@ mvn archetype:generate -DarchetypeGroupId=com.github.gn5r \
 -DgroupId=your project groupId \
 -DartifactId=your project artifactId \
 -Dversion=your project version \
+-Dappname=main class prefix
 ```
 
 # Properties
 
-|    name    |     discription      |                 defaultValue                  |
-| :--------: | :------------------: | :-------------------------------------------: |
-|  groupId   |   Project GroupId    |                       -                       |
-| artifactId |  Project ArtifactId  |                       -                       |
-|  version   |   Project version    |                 1.0-SNAPSHOT                  |
+|    name    |     discription      |                  defaultValue                  |
+| :--------: | :------------------: | :--------------------------------------------: |
+|  groupId   |   Project GroupId    |                       -                        |
+| artifactId |  Project ArtifactId  |                       -                        |
+|  version   |   Project version    |                  1.0-SNAPSHOT                  |
+| packaging  |  Project packaging   |                      war                       |
 |  package   | Project package FQCN | \${groupId}.${artifactId.replaceAll("-", ".")} |
+|  appname   |   MainClassPrefex    |                       -                        |

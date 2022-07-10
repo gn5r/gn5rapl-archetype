@@ -13,7 +13,7 @@
 	<groupId>${groupId}</groupId>
 	<artifactId>${artifactId}</artifactId>
 	<version>${version}</version>
-	<packaging>war</packaging>
+	<packaging>${packaging}</packaging>
 	<name>${artifactId}</name>
 
 	<properties>

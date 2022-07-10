@@ -5,22 +5,37 @@
     <requiredProperty key="package">
       <defaultValue>${groupId}.${artifactId.replaceAll("-", ".")}</defaultValue>
     </requiredProperty>
+    <requiredProperty key="appname"></requiredProperty>
+    <requiredProperty key="packaging">
+      <defaultValue>war</defaultValue>
+      <validationRegex>(war|jar|pom)</validationRegex>
+    </requiredProperty>
   </requiredProperties>
 
   <fileSets>
     <fileSet filtered="true" packaged="true" encoding="UTF-8">
       <directory>src/main/java</directory>
-      <includes>
-        <include>**/*.java</include>
-      </includes>
     </fileSet>
     <fileSet filtered="true" packaged="true" encoding="UTF-8">
       <directory>src/test/java</directory>
     </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main/resources</directory>
+      <includes>
+        <include>**/*.properties</include>
+      </includes>
+    </fileSet>
+    <!-- doma-gen template -->
+    <fileSet encoding="UTF-8">
+      <directory>src/main/resources/doma</directory>
+      <includes>
+        <include>**/*</include>
+      </includes>
+    </fileSet>
     <fileSet encoding="UTF-8">
       <directory>src/main/resources</directory>
       <includes>
-        <include>**</include>
+        <include>logback-spring.xml</include>
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
