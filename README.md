@@ -20,7 +20,7 @@ mvn archetype:generate -DarchetypeGroupId=com.github.gn5r \
 
 # Properties
 
-|    name    |     discription      |                  defaultValue                   |
+|    name    |     description      |                  defaultValue                   |
 | :--------: | :------------------: | :---------------------------------------------: |
 |  groupId   |   Project GroupId    |                        -                        |
 | artifactId |  Project ArtifactId  |                        -                        |
