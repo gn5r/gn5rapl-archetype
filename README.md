@@ -11,7 +11,7 @@
 ```
 mvn archetype:generate -DarchetypeGroupId=com.github.gn5r \
 -DarchetypeArtifactId=gn5rapl-archetype \
--DarchetypeVersion=1.0.0 \
+-DarchetypeVersion=1.1.0 \
 -DgroupId=your project groupId \
 -DartifactId=your project artifactId \
 -Dversion=your project version \
