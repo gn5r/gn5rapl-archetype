@@ -8,7 +8,7 @@
       "type": "java",
       "name": "Debug",
       "request": "launch",
-      "mainClass": "${package}.${appname}Application",
+      "mainClass": "${package}.${name}Application",
       "projectName": "${artifactId}"
     }
   ]
