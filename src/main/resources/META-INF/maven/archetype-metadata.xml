@@ -2,6 +2,9 @@
 <archetype-descriptor xmlns="https://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0 http://maven.apache.org/xsd/archetype-descriptor-1.1.0.xsd" name="gn5rapl-archetype">
 
   <requiredProperties>
+    <requiredProperty key="version">
+      <defaultValue>1.0.0-SNAPHOT</defaultValue>
+    </requiredProperty>
     <requiredProperty key="package">
       <defaultValue>${groupId}.${artifactId.replaceAll("-", ".")}</defaultValue>
     </requiredProperty>
