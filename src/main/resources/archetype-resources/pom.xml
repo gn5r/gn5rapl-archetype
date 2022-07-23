@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.gitlab.gn5r.boot</groupId>
+		<groupId>com.github.gn5r.boot</groupId>
 		<artifactId>gn5r-boot-starter</artifactId>
 		<version>${gn5r-boot-version}</version>
 		<relativePath /> <!-- lookup parent from repository -->
